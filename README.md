@@ -5,21 +5,34 @@ This code is to type in a member number corresponding to the RF card ID
 
 TLDR. 
     set the port number -> make the CSV file -> Enjoy!!
+
 Warning. 
     there is no encryption whatsoever, never use the program or the CSV file to store sensitive informantion.
 
 
 
+
+
 I. before starting
+
+
   Make sure you know the port number your device is connected.
-    Device manager -> Ports(COM-LPT) -> Device name(COM #)
-        edit the reader.py file to the corresponding  COM #
-            card_reader = 'COM#' (defult is set to COM5)
   
-  Check software requirements.
+    Device manager -> Ports(COM-LPT) -> Device name(COM #)
+    
+    
+        edit the reader.py file to the corresponding  COM #
+        
+        
+            card_reader = 'COM#' (defult is set to COM5)
+            
+            
+         
   
   Prepare CSV file.
     format: (order of items are negligable)
+    
+    
       Num, Name, RFID
       1, John, (set by card reader)
       .
@@ -30,6 +43,8 @@ I. before starting
       cf) all the text is incoded to utf-8 (python defult) change if needed
 
 II. running the program 
+
+
   Run the windows batch file.
     reader.bat
     A command prompt window will stay open. (to close, close this window)
