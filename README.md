@@ -40,7 +40,7 @@ I. before starting
       .
       Num and name should be set manually, 
       you can use your existing user list file.
-      cf) all the text is incoded to utf-8 (python defult) change if needed
+      cf) all the text is incoded to utf-8 (python default) change if needed
 
 II. running the program 
 
